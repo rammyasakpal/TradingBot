@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 def get_crypto_trading(api_key, api_secret):
     exchange = ccxt.binance({
-        'xsDDXeMWlxSzJfTsElDAJquwy7HfYiybymafddyDLUrszrAuvF4vg37kqPorM2dQ': api_key,
+        'apiKey': api_key,
         'secret': api_secret,
     })
 
