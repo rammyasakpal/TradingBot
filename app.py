@@ -10,7 +10,7 @@ from bot import get_crypto_trading
 
 # load the Environment Variables. 
 load_dotenv()
-st.set_page_config(page_title="Amazon Product App")
+st.set_page_config(page_title="Crypto Trading Bot App")
 
 # Access environment variables
 api_key = os.getenv('API_KEY')
@@ -28,7 +28,7 @@ with st.sidebar:
     ''')
 
     add_vertical_space(6)
-    st.write('Made by [Rohit Wahwal](https://github.com/zerothrohit)')
+    st.write('Made by [Krish Sanghvi](https://github.com/Krishsanghvii)')
 
 st.header("Cryptocurreny Price Prediction 📈")
 st.divider()
