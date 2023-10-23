@@ -42,6 +42,8 @@ def get_crypto_trading(api_key, api_secret):
     
     return signal, sma_short, sma_long, buy_signal, sell_signal
 
+
+
 # Display trading signals
 # print("Short SMA:", sma_short)
 # print("Long SMA:", sma_long)
