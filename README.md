@@ -1,2 +1,2 @@
 # Crypto-Trading-Bot
- Rudementary crypto trading bot.
+ Rudimentary crypto trading bot.
