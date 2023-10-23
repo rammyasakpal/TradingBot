@@ -8,6 +8,8 @@ import pandas as pd
 from model import get_price_prediction_model
 from bot import get_crypto_trading
 
+
+
 # load the Environment Variables. 
 load_dotenv()
 st.set_page_config(page_title="Crypto Trading Bot App")
